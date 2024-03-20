@@ -1,0 +1,15 @@
+.footer {
+  padding: 88px max(16px, calc((100vw - 500px) * 0.06)) 24px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 650px) {
+  .footer {
+    padding-top: 64px;
+    display: block;
+  }
+}

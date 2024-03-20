@@ -1,0 +1,4 @@
+.lead__image {
+  width: min(100vw, max(100%, 900px));
+  align-self: center;
+}

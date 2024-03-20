@@ -1,0 +1,10 @@
+.cover__image {
+  grid-row: 1 / -1;
+  grid-column: 1 / -1;
+  align-self: center;
+  justify-self: center;
+
+  background: url(../../../images/cover-trains.jpg) center no-repeat;
+  width: 100%;
+  aspect-ratio: 1.6;
+}

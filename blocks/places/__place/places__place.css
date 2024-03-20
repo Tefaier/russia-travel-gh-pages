@@ -1,0 +1,13 @@
+.places__place {
+  display: grid;
+  gap: 48px max(32px, calc(100vw * 0.03));
+  grid-template-columns: 1fr 1.04fr;
+}
+
+@media screen and (max-width: 500px) {
+  .places__place {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+  }
+}

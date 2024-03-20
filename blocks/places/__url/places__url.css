@@ -1,0 +1,9 @@
+.places__url {
+  align-self: flex-end;
+}
+
+@media screen and (max-width: 500px) {
+  .places__url {
+    align-self: flex-start;
+  }
+}

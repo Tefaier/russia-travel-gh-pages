@@ -1,0 +1,8 @@
+.cover {
+  position: relative;
+  display: grid;
+  grid-template-rows: 1fr auto auto 1fr;
+  grid-template-columns: 100%;
+  padding: 0 max(0px, calc((100vw - 1100px) * 0.3));
+  row-gap: 32px;
+}
